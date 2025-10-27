@@ -54,18 +54,6 @@ A **classic Battleship** game built in **Java** with a **JavaFX** graphical inte
 
 ---
 
-## 📂 Project Structure
-
-Battleship/  
-├── src/ — game source files  
-│   ├── model/ — game logic (ships, board, rules)  
-│   ├── view/ — JavaFX UI  
-│   └── controller/ — event handling  
-├── resources/ — FXML, images, and CSS  
-└── README.md
-
----
-
 ## ⚠️ Known Limitations
 
 - Two-player local only (no AI or online play)  
