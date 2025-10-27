@@ -1,0 +1,4 @@
+.root { -fx-background-color: linear-gradient(to bottom,#111,#333); -fx-font-family: 'Verdana'; -fx-text-fill: #fff; }
+Button { -fx-background-color: #e91e63; -fx-text-fill:white; -fx-font-weight:bold; -fx-font-size:16px; }
+Button:hover { -fx-background-color: #b0003a; }
+Label { -fx-text-fill: #ffffff; }

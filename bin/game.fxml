@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+
+<VBox spacing="20" alignment="CENTER" xmlns="http://javafx.com/javafx/17.0.2"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="application.GameController">
+    <Label fx:id="turnLabel" text="Player 1's Turn" style="-fx-font-size:24px; -fx-font-weight:bold;"/>
+    <HBox spacing="50" alignment="CENTER">
+        <VBox spacing="10" alignment="CENTER">
+            <Label text="Player 1 Attack Board" style="-fx-font-size:18px;"/>
+            <GridPane fx:id="attackGrid1"/>
+            <Label fx:id="player1Stats"/>
+        </VBox>
+        <VBox spacing="10" alignment="CENTER">
+            <Label text="Player 2 Attack Board" style="-fx-font-size:18px;"/>
+            <GridPane fx:id="attackGrid2"/>
+            <Label fx:id="player2Stats"/>
+        </VBox>
+    </HBox>
+</VBox>
